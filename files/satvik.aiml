@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- insert your AIML categories here -->
+    <category>
+        <pattern>Tell about me</pattern>
+        <template>My name is Satvik. I'm Pursuing in GITAM UNIVERSITY-HYD</template>
+    </category>
+    <category>
+        <pattern>What is your name</pattern>
+        <template>Your name is Satvik</template>
+    </category>
+</aiml>

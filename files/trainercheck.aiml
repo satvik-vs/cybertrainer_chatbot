@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- insert your AIML categories here -->
+    <category>
+        <pattern>Tell about me</pattern>
+        <template>My name is Satvik. I'm pursuing in GITAM UNIVERSITY-HYD</template>
+    </category>
+    <category>
+        <pattern>What is your name</pattern>
+        <template>Your name is Satvik</template>
+    </category>
+    <category>
+        <pattern>I want to learn cybersecurity</pattern>
+        <template>You can learn about cybersecurity here
+            <image>https://cdn5.vectorstock.com/i/1000x1000/85/69/mini-people-with-envelope-and-cyber-security-vector-23808569.jpg</image>
+            <button>
+                <text>Take me there now . Hohoooo!!!</text>
+                <url>https://www.ibm.com/topics/cybersecurity</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>cybersecurity sites</pattern>
+        <template>Here are some best sites
+            <button>
+                <text>TCM SECURITY</text>
+                <url>https://academy.tcm-sec.com/</url>
+            </button>
+            <button>
+                <text>Hackersploit [ for red team ]</text>
+                <url>https://hackersploit.academy/</url>
+            </button>
+        </template>
+    </category>
+</aiml>
